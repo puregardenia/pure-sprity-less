@@ -1,0 +1,78 @@
+{
+  "name": "pure-sprity-less",
+  "version": "2.0.0",
+  "description": "less style processor for sprity",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sprity/sprity-less.git"
+  },
+  "homepage": "https://github.com/sprity/sprity-less",
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "author": {
+    "name": "puregardenia"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec",
+    "hint": "eslint index.js",
+    "style": "jscs index.js"
+  },
+  "main": "./index.js",
+  "keywords": [
+    "sprites",
+    "sprite",
+    "less",
+    "sprity",
+    "css-sprite"
+  ],
+  "dependencies": {
+    "bluebird": "^2.9.24",
+    "fs-extra": "^0.18.0"
+  },
+  "devDependencies": {
+    "chai": "^2.2.0",
+    "cssesc": "^0.1.0",
+    "handlebars": "^3.0.1",
+    "mocha": "^2.2.4",
+    "prettydiff": "^1.11.11"
+  },
+  "gitHead": "",
+  "_id": "pure-sprity-less@2.0.0",
+  "_shasum": "90237722e2974fcc703dcceaaf8a63837665ab22",
+  "_from": "pure-sprity-less@2.0.0",
+  "_npmVersion": "2.15.0",
+  "_nodeVersion": "4.4.2",
+  "_npmUser": {
+    "name": "puregardenia",
+    "email": "puregardenia@qq.com"
+  },
+  "dist": {
+    "shasum": "90237722e2974fcc703dcceaaf8a63837665ab22",
+    "size": 25244,
+    "noattachment": false,
+    "tarball": "http://registry.npm.taobao.org/pure-sprity-less/download/pure-sprity-less-2.0.0.tgz"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npm.taobao.org/pure-sprity-less/download/pure-sprity-less-2.0.0.tgz",
+  "bugs": {
+    "url": "https://github.com/sprity/sprity-less/issues"
+  },
+  "maintainers": [
+    {
+      "name": "puregardenia",
+      "email": "puregardenia@qq.com"
+    }
+  ],
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/pure-sprity-less-2.0.0.tgz_1468077128761_0.32246646261774004"
+  },
+  "publish_time": 1468077129230,
+  "_cnpm_publish_time": 1468077129230
+}
